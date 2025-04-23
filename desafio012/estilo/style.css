@@ -75,22 +75,29 @@ section.normal {
 section.imagem { 
     background-color: rgb(59, 57, 57);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.349);
+    background-attachment: fixed;
 }
 
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.281);
+    background-color: rgba(0, 0, 0, 0.507);
     display: inline-block;
     padding: 5px;
+    text-shadow: 1px 1px 0px black;
 }
 
-section#img01 {  
-      
-      
+section#img01 {
+    background-image: url('../imagens/ChatGPT\ Image\ 23_04_2025\,\ 14_46_17.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
       
 }
 
 section#img02 { 
-    
+    background-image: url('../imagens/chatgerada.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 
 }
 
