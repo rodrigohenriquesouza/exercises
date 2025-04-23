@@ -64,7 +64,7 @@ section {
 
 section > p { 
 
-    padding-bottom: 2em;
+    padding-bottom: 32px;
 }
 
 section.normal { 
@@ -84,11 +84,13 @@ section.imagem > p {
 }
 
 section#img01 {  
-      background-image: url('../imagens/26841e12d0e5f513901f12913e9352b1.jpg')
+      
+      
+      
 }
 
 section#img02 { 
-    background-image: url('../imagens/._background002.jpg');
+    
 
 }
 
