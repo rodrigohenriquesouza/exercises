@@ -9,9 +9,11 @@
             border: 3px solid blue;
             height: 250px;
             display: grid;
-            grid-template: repeat(3, 100px) / repeat(3, auto);
+            grid-template: repeat(3, 1fr) / repeat(3, auto);
             gap: 10px;
-            place-items: center  stretch;
+            place-items: stretch center;
+            place-content: start center;
+          
            
             
         }
